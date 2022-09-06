@@ -1,6 +1,7 @@
 const postSelector = '#list-view-2 article[id^=jsid-post-]';
 const anonymousAuthorSelector = '.ui-post-creator__author[href="javascript:void(0);"]';
 
+const toggleButtonClass = 'block-anonymous';
 const anonymousPostClass = '__is-anonymous-post';
 const hideAnonymousPostsClass = '__hide-anonymous-posts';
 
@@ -9,15 +10,14 @@ attachMutationObservers();
 
 function addToggleButton() {
 	const toggleButton = document.createElement('button');
-	toggleButton.textContent = 'O';
+	toggleButton.classList.add(toggleButtonClass);
+	toggleButton.title = 'Toggle visibility of posts by anonymous users';
 
 	toggleButton.addEventListener('click', () => {
 		if (document.body.classList.contains(hideAnonymousPostsClass)) {
 			document.body.classList.remove(hideAnonymousPostsClass);
-			toggleButton.textContent = 'O';
 		} else {
 			document.body.classList.add(hideAnonymousPostsClass);
-			toggleButton.textContent = 'X';
 		}
 	});
 

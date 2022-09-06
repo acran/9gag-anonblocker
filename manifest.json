@@ -5,6 +5,10 @@
 	"homepage_url": "https://github.com/acran/9gag-anonblocker",
 	"author": "Roman Anasal",
 	"version": "0.0.0",
+	"web_accessible_resources": [{
+		"resources": ["icons/show.svg", "icons/hide.svg"],
+		"matches": ["https://9gag.com/*"]
+	}],
 	"content_scripts": [{
 		"matches": ["https://9gag.com/*"],
 		"css": ["content.css"],
