@@ -1,0 +1,4 @@
+.__hide-anonymous-posts .__is-anonymous-post {
+	max-height: 40px;
+	overflow: hidden;
+}

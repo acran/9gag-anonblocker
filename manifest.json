@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "9GAG AnonBlocker",
+	"description": "Block posts of anonymous users in your stream on 9GAG",
+	"homepage_url": "https://github.com/acran/9gag-anonblocker",
+	"author": "Roman Anasal",
+	"version": "0.0.0",
+	"content_scripts": [{
+		"matches": ["https://9gag.com/*"],
+		"css": ["content.css"],
+		"js": ["content.js"]
+	}]
+}
