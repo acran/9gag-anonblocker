@@ -16,12 +16,12 @@ jobs:
 
       - name: "Create Archive"
         run: |
-          zip -r 9gag-anonblocker.zip icons/ content.* manifest.json
+          zip -r 9gag-anonblocker.zip Readme.md LICENSE icons/ content.* manifest.json
 
       - name: "Create manifest v2 Archive"
         run: |
           mv manifest_v2.json manifest.json
-          zip -r 9gag-anonblocker_manifest_v2.zip icons/ content.* manifest.json
+          zip -r 9gag-anonblocker_manifest_v2.zip Readme.md LICENSE icons/ content.* manifest.json
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
