@@ -33,6 +33,17 @@ contribute.
 
 # Installation
 
+You can download and install the offical release of this extension called
+"9GAG AnonBlocker" from
+* the [Chrome Web Store](https://chrome.google.com/webstore/detail/9gag-anonblocker/aelmmdnbcnecjaojaknoabfiacddfmkl)
+  for Chrome/Chromium browser
+* [addons.mozilla.org](https://addons.mozilla.org/de/firefox/addon/9gag-anonblocker/) for Firefox
+
+## Manual Installation
+
+If you want to install this extension manually from source follow these
+instructions.
+
 This extension should be compatible with all browsers supporting WebExtensions
 [manifest v3](https://developer.chrome.com/docs/extensions/mv3/intro/)
 (currently Chrome/Chromium and Safari) and browsers supporting WebExtensions
