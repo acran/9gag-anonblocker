@@ -4,7 +4,7 @@
 	"description": "Block posts of anonymous users in your stream on 9GAG",
 	"homepage_url": "https://github.com/acran/9gag-anonblocker",
 	"author": "Roman Anasal",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"icons": {
 		"128": "icons/icon128.png"
 	},
