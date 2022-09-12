@@ -38,6 +38,7 @@ You can download and install the offical release of this extension called
 * the [Chrome Web Store](https://chrome.google.com/webstore/detail/9gag-anonblocker/aelmmdnbcnecjaojaknoabfiacddfmkl)
   for Chrome/Chromium browser
 * [addons.mozilla.org](https://addons.mozilla.org/de/firefox/addon/9gag-anonblocker/) for Firefox
+* [addons.opera.com](https://addons.opera.com/en/extensions/details/9gag-anonblocker/) for Opera
 
 ## Manual Installation
 
@@ -68,6 +69,11 @@ and selecting the appropriate ZIP file:
       go to **about:debugging** > This Firefox,
       click **Load Temporary Add-on** and select the directory with the unpacked
       extension
+
+    * [Opera](https://dev.opera.com/extensions/basics/#step-4-testing-your-extension):
+      go to **opera:extensions**,
+      enable **Developer Mode** by switching the toggle,
+      click **Load unpacked** to select the directory with the unpacked extension
 
 	* other browsers: please look up your browser's documentation
 
